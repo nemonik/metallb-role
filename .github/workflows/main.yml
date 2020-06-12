@@ -11,10 +11,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Set up Python 2.17
+      - name: Set up Python 2.7.18
         uses: actions/setup-python@v1
         with:
-          python-version: 2.17
+          python-version: 2.7.18
 
       - name: Install ansible
         run: pip install --upgrade pip ansible
