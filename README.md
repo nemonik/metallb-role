@@ -1,6 +1,6 @@
 # metallb Ansible role
 
-![](https://github.com/nemonik/metallb/workflows/Basic%20role%20syntax%20check/badge.svg)
+![](https://github.com/nemonik/metallb-role/workflows/Basic%20role%20syntax%20check/badge.svg)
 
 An Ansible role for ensuring the configuration of a [metallb](https://metallb.universe.tf/).
 
