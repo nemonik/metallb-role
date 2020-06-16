@@ -1,4 +1,3 @@
 ---
 # defaults file for metallb
 metallb_version: v0.8.3
-images_cache_path: /vagrant/cache/images
