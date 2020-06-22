@@ -14,6 +14,7 @@ Requires Kubernetes installed.
 |-------------------------|----------|-----------------------|---------------------|--------------------------------------------------|
 | metallb_version         | yes      | v0.8.3                | matches release tag | metallb version to install                       |
 | images_cache_path       | no       | not defined           | Path                | Path to folder used to cache saved Docker images |            
+| cache_container_timeout | no       | 300 seconds           | Integer value       | Number of seconds before Ansible times out       |
 
 ## Example Playbook
 
