@@ -42,7 +42,7 @@
 
   - name: ensure metallb-configmap.yml is in place at /home/{{ ansible_user_id }}/metallb
     copy:
-      src: files/metallb-configmap.yml
+      src: templates/metallb-configmap.yml.j2
       dest: /home/{{ ansible_user_id }}/metallb/metallb-configmap.yml
       force: yes
       mode: u=rw,g=r
