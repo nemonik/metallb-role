@@ -13,6 +13,7 @@ Requires Kubernetes installed.
 | Variable                | Required | Default               | Choices             | Comments                                         |
 |-------------------------|----------|-----------------------|---------------------|--------------------------------------------------|
 | metallb_version         | yes      | v0.8.3                | matches release tag | metallb version to install                       |
+| network_prefix          | yes      | 192.168.0             | first 3 octets      | the ip address prefix for ips to use             |
 | images_cache_path       | no       | not defined           | Path                | Path to folder used to cache saved Docker images |            
 | cache_container_timeout | no       | 300 seconds           | Integer value       | Number of seconds before Ansible times out       |
 
